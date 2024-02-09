@@ -1,0 +1,142 @@
+.font-size-xs{
+    font-size: x-small;
+}
+.navbar{
+    font-weight: bolder;
+}
+.nav-link{
+    color: black !important;
+}
+@media(min-width:768px){
+.font-size-xl{
+    font-size: 70px;
+}
+.margin-left-navbar-item-lg{
+    margin-left: 160px;
+} 
+.modal-body.bg-dark {
+    margin-left: -120px !important;
+}
+button.close{
+    margin-left:550px !important;
+}
+.modal-header{
+    margin-top: -20px !important;
+}
+}
+.modal-content{
+    border: none !important;
+}
+.modal-header{
+    border: none !important;
+    margin-top: -10px !important;
+}
+a.nav-link,button.close{
+    color: white !important;
+}
+a.nav-link.mr-2 {
+    color: black !important;
+}
+.bolder{
+    font-weight: bold;
+}
+
+/* BANNER  */
+.bg-banner{
+background-image:url(images/library.jpg);
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+height: 70vh !important;
+}
+
+.animate-charcter
+{
+    
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #fff700 0%,
+    #d1ca01 29%,
+    #8e8901 67%,
+    #696400 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+
+}
+@media(min-width:768px){
+    .animate-charcter{
+        font-size: 100px;
+    }
+}
+@keyframes textclip {
+  to {
+    background-position: 210% center;
+  }
+}
+/* BANNER  */
+
+/* CARDS  */
+.bg-filters{
+    background-color: #313032;
+    color:white;
+}
+
+.bg-filters.active{
+    background-color: #a02727;
+    color: black;
+}
+.bg-filters.active i{
+    display: block !important;
+    
+}
+.filter-cards label:hover{
+    cursor: pointer;
+}
+
+.card {
+    border: none!important;
+    width: 100%!important;
+    box-shadow: 0px 0px 20px -1px rgba(0, 0, 0, 0.44);
+}
+
+.card:hover {
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.05);
+  box-shadow: 0px 0px 40px -1px rgba(0, 0, 0, 0.44);
+}
+/* CARDS  */
+
+/* FORM NAV  */
+.box-shadow{
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.44);
+}
+/* FORM NAV  */
+.margin-button{
+    margin-top:calc(104px - 47.6px) !important;
+}
+@media(min-width:768px){
+    .section-control-form{
+        margin-top: 130px !important;
+        margin-bottom: 130px !important;
+    }
+    }
+.section-control-bottom{
+    margin-bottom: 100px !important;
+}
+.active-category {
+    background-color: darkred !important;
+    color: white;
+}
+.card-img-top{
+    min-height: 300px !important;
+}
